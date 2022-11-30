@@ -1,20 +1,112 @@
 /* Ordenat de forma Alfabetica */
-*{
-    box-sizing: border-box;
-}
-
-.capcelera {
+.capcelera{
     background-color: #B6AEAC;
     text-align: center;
-    padding: 15px;
-  }
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    top:0%;
+    left:0%;
+}
 
-.MenuText {
-    width: 20%;
-    float: left;
+.general{
+    width: 100%;
+}
 
-    border: 1px solid rgb(5, 5, 6);
+.MenuInici{
     text-align: center;
     background-color: darkcyan;
-  }
+    width: 390px;
+    height: 50px;
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    border-style: solid;
+    border-left:none;
+}
+.MenuText1{
+    text-align: center;
+    background-color: darkcyan;
+    width: 390px;
+    height: 50px;
+    position: absolute;
+    top: 120px;
+    left: 20%;
+    border-style: solid;
 
+}
+.MenuText2{
+    text-align: center;
+    background-color: darkcyan;
+    width: 390px;
+    height: 50px;
+    position: absolute;
+    top: 120px;
+    left: 40%;
+    border-style: solid;
+}
+
+.MenuText3{
+    text-align: center;
+    background-color: darkcyan;
+    width: 390px;
+    height: 50px;
+    position: absolute;
+    top: 120px;
+    left: 60%;
+    border-style: solid;
+
+}
+.MenuNosaltres{
+    text-align: center;
+    background-color: darkcyan;
+    width: 390px;
+    height: 50px;
+    position: absolute;
+    top: 120px;
+    right: 0%;
+    border-style: solid;
+    
+    border-right:none;
+
+}
+
+.imatgeformat{
+    text-align: center;
+    height:200px;
+    width: 385px;
+    background-color: rgb(92, 92, 227);
+    position: absolute;
+    top:175px;
+    left: 0%;
+}
+
+.ofertesformat{
+    text-align: center;
+    height: 200px;
+    width: 1143px;
+    background-color: chartreuse;
+    position: absolute;
+    top: 175px;
+    left:385px;
+}
+
+.iniciarSessioformat{
+    text-align: center;
+    height: 100px;
+    width: 392px;
+    background-color: darkorange;
+    position: absolute;
+    top: 175px;
+    right: 0px;
+}
+
+.mevaCistellaFormat{
+    text-align: center;
+    height: 100px;
+    width: 392px;
+    background-color: rgb(237, 67, 81);
+    position: absolute;
+    top: 275px;
+    right: 0px;
+}
