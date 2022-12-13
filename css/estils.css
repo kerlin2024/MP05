@@ -10,6 +10,7 @@
 }
 
 .general{
+    display: inline-flex;
     width: 100%;
     position: absolute;
     top: 120px;
@@ -18,26 +19,23 @@
 }
 
 ul {
-    display: block;
     text-align: center;
-    margin: 0 auto;
-    padding: 0;
+    width: 100%;
+    margin: auto;
     background-color: azure;
-    position:absolute;
 }
 li {
-    display: inline-flex;
+    display: inline-block;
     list-style: none;
-    padding-right:250px;
-    padding-bottom: 0px;
+    padding: 15px;
+    
+
 }
 
 a {
+    text-align: center;
     font-size: 30px;
-    display: block;
-    padding-top: 13px;
     text-transform: uppercase;
-    position: relative;
     color: grey;
     letter-spacing:3px;
     text-decoration: none;
