@@ -11,65 +11,11 @@
 
 .general{
     width: 100%;
-}
-
-.MenuInici{
-    text-align: center;
-    background-color: darkcyan;
-    width: 390px;
-    height: 50px;
     position: absolute;
     top: 120px;
-    left: 0px;
-    border-style: solid;
-    border-left:none;
-}
-.MenuText1{
-    text-align: center;
-    background-color: darkcyan;
-    width: 390px;
-    height: 50px;
-    position: absolute;
-    top: 120px;
-    left: 20%;
-    border-style: solid;
-
-}
-.MenuText2{
-    text-align: center;
-    background-color: darkcyan;
-    width: 390px;
-    height: 50px;
-    position: absolute;
-    top: 120px;
-    left: 40%;
-    border-style: solid;
+    background-color: aqua;
 }
 
-.MenuText3{
-    text-align: center;
-    background-color: darkcyan;
-    width: 390px;
-    height: 50px;
-    position: absolute;
-    top: 120px;
-    left: 60%;
-    border-style: solid;
-
-}
-.MenuNosaltres{
-    text-align: center;
-    background-color: darkcyan;
-    width: 390px;
-    height: 50px;
-    position: absolute;
-    top: 120px;
-    right: 0%;
-    border-style: solid;
-    
-    border-right:none;
-
-}
 
 .imatgeformat{
     text-align: center;
@@ -84,29 +30,77 @@
 .ofertesformat{
     text-align: center;
     height: 200px;
-    width: 1143px;
+    width: 60%;
     background-color: chartreuse;
     position: absolute;
     top: 175px;
     left:385px;
+    cursor: pointer;
 }
 
 .iniciarSessioformat{
     text-align: center;
     height: 100px;
     width: 392px;
-    background-color: darkorange;
+    background-color: rgb(63, 253, 247);
     position: absolute;
     top: 175px;
     right: 0px;
+    cursor: pointer;
 }
 
 .mevaCistellaFormat{
     text-align: center;
     height: 100px;
     width: 392px;
-    background-color: rgb(237, 67, 81);
+    background-color: rgb(221, 218, 218);
     position: absolute;
     top: 275px;
     right: 0px;
+    cursor: pointer;
+}
+
+.cistellatamany{
+    width: 100px;
+    height: 85px;
+    position: absolute;
+    right: 7px;
+    top:7px;
+}
+
+.textmig{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+
+.producte1{
+    width: 33%;
+    height: 500px;
+    position: absolute;
+    top: 375px;
+    left: 0px;
+    background-color: aqua;
+}
+
+.producte2{
+    width: 34%;
+    height: 500px;
+    position: absolute;
+    top: 375px;
+    left: 33%;
+    background-color: rgb(248, 87, 242);
+}
+
+.producte3{
+    width: 33%;
+    height: 500px;
+    position: absolute;
+    top: 375px;
+    right: 0%;
+    background-color: rgb(255, 177, 74);
+}
+
+h3{
+    text-align: center;
 }
