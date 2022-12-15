@@ -1,0 +1,27 @@
+.producte1{
+    height: 700px;
+    background-color: aqua;
+}
+
+.producte2{
+    height: 700px;
+    background-color: rgb(248, 87, 242);
+}
+
+.producte3{
+    height: 700px;
+    background-color: rgb(255, 177, 74);
+}
+
+.Productes{
+    top: 375px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    align-items: center;
+}
+
+.posicioProductes{
+    position: absolute;
+    top: 360px;
+}
