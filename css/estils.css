@@ -3,29 +3,6 @@
     padding: 0px;
     margin: 0px;
 }
-.capcelera{
-    background-color: #B6AEAC;
-    text-align: center;
-    width: 100%;
-    height: 120px;
-    position: absolute;
-    top:0%;
-    left:0%;
-    padding-top: 25px;
-}
-
-.general{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    width: 100%;
-    position: absolute;
-    top: 120px;
-    background-color: rgb(107, 27, 255);
-    height: 30px;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
 
 a {
     font-size: 30px;
@@ -35,68 +12,8 @@ a {
     text-decoration: none;
 }
 
-.imatgeformat{
-    text-align: center;
-    height:200px;
-    width: 385px;
-    background-color: rgb(92, 92, 227);
-    left: 0%;
-}
-
-.ofertesformat{
-    text-align: center;
-    height: 200px;
-    background-color: chartreuse;
-    cursor: pointer;
-}
-
-.iniciarSessioformat{
-    background-color: rgb(63, 253, 247);
-    cursor: pointer;
-    width: 100%;
-}
-
-.mevaCistellaFormat{
-    background-color: rgb(221, 218, 218);
-    cursor: pointer;
-    width: 392px;
-    height: 100px;
-}
-
-.cistellatamany{
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    right: 0px;
-}
-
-.textmig{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    color: white;
-}
 
 h3{
     text-align: center;
 }
 
-.menu{
-    width: 100%;
-    position: absolute;
-    top: 160px;
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    column-gap: 0px;
-}
-
-.conjunt{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.banner{
-    width: 100%;
-    height: 100%;
-}

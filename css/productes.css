@@ -29,26 +29,22 @@
     align-items: center;
     flex-direction: column;
 }
-
+/* Div General de tots els productes */
 .Productes{
-    top: 375px;
+    position: absolute;
+    top: 360px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 100%;
     align-items: center;
 }
-
-.posicioProductes{
-    position: absolute;
-    top: 360px;
-}
-
+/* Posar la imatge del producte dalt del div */
 .topdiv{
     height: 50%;
     width: 60%;
     background-color: azure;
 }
-
+/* Tamany imatge producte */
 .imatgeDestacada{
     height: 100%;
     width: 100%;
