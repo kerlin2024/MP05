@@ -28,11 +28,11 @@
     position: absolute;
     top: 160px;
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 20% 60% 20%;
 }
 /* logo de la empresa */
 .divLogo{
-    background-color: rgb(92, 92, 227);
+    background-color: rgb(236, 82, 82);
     left: 0%;
     height: 200px;
     display: block;
@@ -59,20 +59,26 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 200px;
+    height: 100%;
 }
 /* Opció per enllaçar a la pagina web de iniciar sessió */
 .iniciarSessioformat{
     background-color: rgb(63, 253, 247);
     cursor: pointer;
     width: 100%;
+    height: 100%;
+}
+/* Imatge de iniciar sessió */
+.imatgeIniciarSessio{
+    width: 100%;
+    height: 100%;
 }
 /* opció per enllaçar a la pagina web de la meva cistella */
 .mevaCistellaFormat{
     background-color: rgb(221, 218, 218);
     cursor: pointer;
-    width: 392px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
 }
 /* Foto de la meva cistella */
 .cistellatamany{
@@ -80,6 +86,13 @@
     height: 100px;
     position: absolute;
     right: 0px;
+    top: 100px;
+}
+
+.MevaCistellaText{
+    position: absolute;
+    top: 70%;
+    right: 10%;
 }
 
 

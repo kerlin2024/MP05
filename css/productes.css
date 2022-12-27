@@ -1,34 +1,11 @@
-.producte1{
+.producte{
     height: 400px;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.producte2{
-    height: 400px;
-    background-color: rgb(248, 87, 87);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.producte3{
-    height: 400px;
-    background-color: rgb(255, 74, 243);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.producte4{
-    height: 400px;
-    background-color: rgb(255, 177, 74);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
 /* Div General de tots els productes */
 .Productes{
     position: absolute;
@@ -40,13 +17,26 @@
 }
 /* Posar la imatge del producte dalt del div */
 .topdiv{
-    height: 50%;
-    width: 60%;
-    background-color: azure;
+    height: 60%;
+    width: 90%;
+    background-color: rgb(250, 250, 250);
 }
 /* Tamany imatge producte */
 .imatgeDestacada{
     height: 100%;
     width: 100%;
+}
+
+.Descripcio{
+    background-color:rgb(255, 255, 255);
+    height: 40%;
+    width: 100%;
+}
+
+.Preu{
+    background-color: aliceblue;
+    color: red;
+    font-size: 50px;
+    text-align: end;
 }
 
