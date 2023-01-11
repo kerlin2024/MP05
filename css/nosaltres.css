@@ -1,0 +1,52 @@
+.QuiSomDiv{
+    width: 100%;
+    height: 215px;
+    background-color: #535252;
+    position: absolute;
+    top: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TitolsNosaltres{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top:20px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.TextNosaltres{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    text-align: justify;
+    width: 50%;
+}
+
+.PrevisioFutur{
+    width: 100%;
+    height: 215px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PrimersPasos{
+    width: 100%;
+    height: 215px;
+    background-color: #535252;
+    position: absolute;
+    top: 590px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.TextNegre{
+    color: #000000;
+}
