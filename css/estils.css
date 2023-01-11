@@ -4,14 +4,51 @@
     margin: 0px;
 }
 
+
 a {
     font-size: 30px;
     text-transform: uppercase;
-    color: rgb(255, 255, 255);
-    letter-spacing:5px;
+    color: rgb(0, 0, 0);
+    letter-spacing:8px;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 h3 {
     text-align: center;
 }
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+label{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;;
+    margin-bottom: 10px;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+.footerPagina{
+    padding: 100px;
+    width: 100%;
+    margin-top: 250px;
+    background-color: rgb(255, 10, 10);
+
+}
+
+  footer {
+    margin-top: 770px;
+    background-color: brown;
+    padding : 10px;
+
+  }
+  
