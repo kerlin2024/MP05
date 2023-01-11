@@ -46,8 +46,14 @@ input {
 }
 
   footer {
-    margin-top: 770px;
-    background-color: brown;
+    margin-top: 765px;
+    background-color:gray;
+    padding : 10px;
+
+  }
+.especial {
+    margin-top: 580px;
+    background-color:gray;
     padding : 10px;
 
   }

@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="./css/productes.css">
     <link rel="stylesheet" type="text/css" href="./css/capcelera.css">
     <link rel="stylesheet" type="text/css" href="./css/iniciarSessio.css">
+    <!-- <script src="/JavaScript/Registre.js"></script> -->
     <title>Hola</title>
 </head>
 <body>
@@ -14,23 +15,82 @@
         <h1>Caperucita Tecnologica</h1>
     </div>
     <div class="general">
-        <div><a href="www.youtube.com" data-title="Inici">Inici</a></div>
-        <div><a href="www.instagram.com" data-title="Text1">text1</a></div>
-        <div><a href="www.facebook.com" data-title="Text2">text2</a></div>
+        <div><a href="index.html" data-title="Inici">Inici</a></div>
+        <div><a href="iniciarSessio.html" data-title="Login">Login</a></div>
+        <div><a href="iniciarSessio.html" data-title="Registre">Registre</a></div>
         <div><a href="www.google.com" data-title="Text3">Text3</a></div>
         <div><a href="www.google.com" data-title="Nosaltres">Nosaltres</a></div>
     </div>
+    <div class="titolsIniciar">
+        <p class="titols1">Iniciar Sessio</p>
+        <p class="titols2">Registre</p>
+    </div>
         <div class="IniciarSessioDiv">
             <div class="IniciarSessio">
-            <form action="iniciarSessio.html" method="post">
+            <form action="iniciarSessio.html" method="get">
                 <label for="email">Email</label>
                 <br>
-                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="email" name="email" id="emaill" placeholder="Email">
                 <label for="password">Password</label>
                 <br>
-                <input type="password" name="password" id="password" placeholder="Password">
+                <input type="password" name="password" id="passwordd" placeholder="Password">
                 <input type="submit" value="Iniciar Sessio">
             </form>
             </div>
+            <div class="Register">
+                <form method="get">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" name="name" id="name" placeholder="Name">
+                    <br>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <br>
+                    <label for="telefon">Telefon</label>
+                    <br>
+                    <input type="text" name="telefon" id="telefon" placeholder="Telefon">
+                    <br>
+                    <label for="password">Password</label>
+                    <br>
+                    <input type="password" name="password" id="password" placeholder="Password">
+                    <br>
+                    <input type="submit" id="boton" value="Registrarse" onclick="Register()">
+                    <button onclick="Register()" value="REGISTER"></button>
+                    
+                </form>
+                </div>
         </div>
+
+        <footer class="especial">
+       
+            <p>Copyright &copy; 2022 Caperucita Tecnologica</p>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inici</a></li>
+                    <li><a href="#">Nosaltres</a></li>
+                    <li><a href="iniciarSessio.html">Iniciar Sessio</a></li>
+                </ul>
+            </nav>
+        
+    </footer>
+        
 </body>
+</html>
+
+<script>
+    //Crear formulario de registro 
+// Path: JavaScript\Registre.js
+document.addEventListener('DOMContentLoaded', function () {
+    const sessionstore = sessionStorage;
+    const usuario = document.getElementById("name");
+    const password = document.getElementById("password");
+
+    function Register(){
+        alert("ALERT!");
+        sessionstore.setItem("usuario", usuario.value);
+        sessionstore.setItem("contrasenya", password.value);
+        alert("Usuario registrado");
+    }
+});
+</script>
