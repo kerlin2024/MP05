@@ -1,5 +1,6 @@
-Aquí volia dir que vaig probar de fer el logIn i el registre. 
+Aquí volia dir que vaig probar de fer el registre. 
 Primer el vaig probar amb un fitxer js(Esta a la carpeta JavaScript) però no hem va funcionar,
 després vaig probar de fer-lo al codi html mateix però tampoc em va funcionar. 
 He deixar el codi comentat al final del tot de l'arxiu iniciarSessio.html, 
-també està l'arxiu JavaScript per si el vol veure i si pot esbrinar l'error que estaba fent.
+També vaig fer el codi de iniciar sessió(El que esta actialment al l'arxiu registre).
+Aquest codi si que funciona perfectament.
