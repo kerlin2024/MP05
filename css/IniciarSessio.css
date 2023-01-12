@@ -8,7 +8,7 @@
     align-items: center;
     background-color: rgb(255, 255, 255);
     flex-wrap: wrap;
-    gap: 200px;
+    gap: 11%;
 }
 .IniciarSessio{
     width: 250px;
@@ -41,7 +41,7 @@
 .titols2{
     position: absolute;
     top: 160px;
-    left: 62%;
+    left: 55%;
     font-weight: bold;
     font-size: 35px;
 }
