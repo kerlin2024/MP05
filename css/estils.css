@@ -63,4 +63,12 @@ input {
     padding : 10px;
 
   }
+  ul {
+    list-style: none;
+  }
+  /* Fer un font-face */
+    @font-face {
+        font-family: 'Roboto';
+        src: url('fonts/Roboto-Regular.ttf');
+    }
   

@@ -1,20 +1,11 @@
 //Crear inicio de sessio de la pagina web
-function CrearSessio(){
- <script>
 
-document.addEventListener('DOMContentLoaded', function () {(function () {
+function iniciarSessio(){
+    var user, pass;
+    user = document.getElementById("username").value;
+    pass = document.getElementById("passwordd").value;
 
-
-    const sessionstore = sessionStorage;
-    const usuario = document.getElementById("name");
-    const password = document.getElementById("password");
-
-    function Register(){
-        alert("ALERT!");
-        sessionstore.setItem("usuario", usuario.value);
-        sessionstore.setItem("contrasenya", password.value);
-        alert("Usuario registrado");
+    if(user == "admin" && pass == "admin"){
+        window.location = "index.html";
     }
-})  });
-</script>
 }

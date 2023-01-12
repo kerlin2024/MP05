@@ -30,15 +30,15 @@
         <div class="IniciarSessioDiv">
             <div class="IniciarSessio">
             <form action="iniciarSessio.html" method="get">
-                <label for="email">Email</label>
+                <label for="noom">Nom</label>
                 <br>
-                <input type="email" name="email" id="emaill" placeholder="Email">
+                <input type="text" name="texttt" id="username" placeholder="Email">
                 <br>
                 <label for="password">Password</label>
                 <br>
-                <input type="password" name="password" id="passwordd" placeholder="Password">
+                <input type="password" name="password" id="g" placeholder="Password">
                 <br>
-                <input type="submit" value="Iniciar Sessio">
+                <input type="button" value="Iniciar Sessio" onclick="iniciarSessio()">
             </form>
             </div>
             <div class="Register">
@@ -59,7 +59,7 @@
                     <br>
                     <input type="password" name="password" id="password" placeholder="Password">
                     <br>
-                    <input type="submit" id="boton" value="Registrarse" onclick="Register()">
+                    <input type="button" id="boton" value="Registrarse" onclick="Register()">
                     <button onclick="Register()" value="REGISTER"></button>
                     
                 </form>
@@ -81,7 +81,7 @@
 </body>
 </html>
 <!-- Codi en JavaScript intentant realitzar en Iniciar Sessio i el Registre -->
-<!-- <script>
+<script>
     //Crear formulario de registro 
 // Path: JavaScript\Registre.js
 document.addEventListener('DOMContentLoaded', function () {
@@ -94,6 +94,7 @@ document.addEventListener('DOMContentLoaded', function () {
         sessionstore.setItem("usuario", usuario.value);
         sessionstore.setItem("contrasenya", password.value);
         alert("Usuario registrado");
+        window.location = "index.html";
     }
 });
-</script> -->
+</script>
